@@ -4,20 +4,22 @@
     padding: o;
     box-sizing: border-box;
 }
-/* estilos para mobile */
 
+/* estilos para desktop */
 /* estilos del index */
 header{
     text-align: center;
+    background-color: rgb(4, 78, 78);
 }
 .car{
    background-color: black;
-   color: antiquewhite;
+   color:rgb(4, 78, 78);
    margin: 1rem;
    padding: 3px;
 }
 .car-dos{
     margin: 1rem;
+    color: black;
 }
 .car-tres{
     display: grid;
@@ -60,91 +62,21 @@ header{
 }
 
 /* estilos de ropa masculina */
-.bex{
+
+.rip{
     text-decoration: none;
-    color: rgb(10, 10, 10);
-}
-.kill{
-    display: grid;
-    list-style: none;
-    gap: 1.5rem;
-    margin-top: 20px;
-}
-.kill-u{
-    text-decoration: none; 
-    background-color: black;
-    color: antiquewhite;
-    padding: 3%;
+    color: black;
+    display: inline-block;
+    margin-top: 5%;
+    margin-right: 65%;
 }
 
-.bix{
-    object-fit: cover;
-    width: 70%;
-    height: 70%;
-    margin-left: 75px;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 3px solid black;
-    margin-top: 50px;
-
-}
 .bix-one{
     text-align: center;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     cursor: default;
-    border: 3px solid black;
-    margin-bottom: 10px;
-}
-.bix-two{
-    object-fit: cover;
-    width: 70%;
-    height: 70%;
-    margin-left: 75px;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 3px solid black;
-    margin-top: 50px;
-}
-.bix-twos{
-    text-align: center;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    cursor: default;
-    border: 3px solid black;
-    margin-bottom: 10px;
-}
-.bix-three{
-    object-fit: cover;
-    width: 70%;
-    height: 70%;
-    margin-left: 75px;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 3px solid black;
-    margin-top: 50px;
-}
-.bix-threes{
-    text-align: center;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    cursor: default;
-    border: 3px solid black;
-    margin-bottom: 10px;
-}
-.bix-four{
-    object-fit: cover;
-    width: 70%;
-    height: 70%;
-    margin-left: 75px;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 3px solid black;
-    margin-top: 50px;
-}
-.bix-fours{
-    text-align: center;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    cursor: default;
-    border: 3px solid black;
-    margin-bottom: 10px;
+    width: 15%;
+    margin: 10px;
 }
 
 .legend{
@@ -158,18 +90,6 @@ header{
     text-align: center;
 }
 /* estilos de ropa femenina */
-.kall{
-    display: grid;
-    list-style: none;
-    gap: 1.5rem;
-    margin-top: 20px;
-}
-.kall-u{
-    text-decoration: none; 
-    background-color: black;
-    color: antiquewhite;
-    padding: 3%;
-}
 .rex{
     text-align: center;
 }
@@ -181,48 +101,25 @@ header{
     text-align: center;
     padding: 1rem;
 }
-
-.rux-one{
-    margin-right: 1500px;
-
+.bix-one{
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    width: 15%;
+    margin: 10px;
 }
-.rux-ones{
-    margin-right: 1250px;
-}
-
-.rux-two{
-    margin-right: 1500px;
-}
-.rux-twos{
-    margin-right: 1250px;
-}
-.rux-three{
-    margin-right: 1500px;
-
-}
-.rux-threes{
-    margin-right: 1250px;
-}
-.rux-four{
-    margin-right: 1500px;
-}
-.rux-fours{
-    margin-right: 1250px;
-}
-/* estilos de lenceria erotica */
-.kull{
-    display: grid;
-    list-style: none;
-    gap: 1.5rem;
-    margin-top: 20px;
-}
-.kull-u{
-    text-decoration: none; 
+.legend{
     background-color: black;
     color: antiquewhite;
-    padding: 10px;
-    margin-top: 50px;
+    margin: 10%;
 }
+.text{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+/* estilos de lenceria erotica */
+
 .lex{
     text-align: center;
     background-color: black;
@@ -236,45 +133,24 @@ header{
     text-align: center;
     padding: 15px;
 }
-.lax-one{
-    margin-right: 1500px;
+.bix-one{
+     text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    width: 15%;
+    margin: 10px; 
 }
-.lax-ones{
-    margin-right: 1200px;
-}
-.lax-two{
-    margin-right: 1500px;
-}
-.lax-twos{
-    margin-right: 1250px;
-}
-.lax-three{
-    margin-right: 1500px;
-}
-.lax-threes{
-    margin-right: 1250px;
-}
-
-.lax-four{
-    margin-right: 1500px;
-}
-
-.lax-fours{
-    margin-right: 1250px;
-}
-
-/* estilos de contacto */
-.koll{
-    display: grid;
-    list-style: none;
-    gap: 1.5rem;
-    margin-top: 20px;
-}
-.koll-u{
-    text-decoration: none; 
+.legend{
     background-color: black;
     color: antiquewhite;
-    padding: 5px;}
+    margin: 10%;
+}
+.text{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+/* estilos de contacto */
 .azul{
     text-decoration: none;
     background-color: black;
@@ -289,9 +165,7 @@ header{
     text-decoration: none;
     color: black;
 }
-.{
-    margin-right: 1500px;
-}
+
 .boton{
     background-color: black;
     display: inline-block;
@@ -318,91 +192,55 @@ header{
     padding: 15px;
     margin: 25px;
 }
-/* estilos para desktop */
-@media screen and (min-width:600px){
-/* estilos de ropa masculina */
-    .kill{
-        display: flex;
-        
-    }
-    .kill-u{
-        text-align: center;
-        padding: 2%;
-    }
-    .bix{
-        width: 150px;
-        height: 150px;
-        margin-left: 90px;
-    }
-    .bix-one{
-        margin: 1%;
-        margin-right: 1050px;
-        margin-left: 100px;
-    }
-    .bix-two{
-        width: 150px;
-        height: 150px;
-        margin-left: 90px;
-    }
-    .bix-twos{
-        margin: 1%;
-        margin-right: 1050px;
-        margin-left: 100px;
-    }
-    .bix-three{
-        width: 150px;
-        height: 150px;
-        margin-left: 90px;
-    }
-    .bix-threes{
-        margin: 1%;
-        margin-right: 1050px;
-        margin-left: 100px;
-    }
-    .bix-four{
-        width: 150px;
-        height: 150px;
-        margin-left: 90px;
-    }
-    .bix-fours{
-        margin: 1%;
-        margin-right: 1050px;
-        margin-left: 100px;
-    }
-    .legend{
-        margin-bottom: 20px;
-        padding: 1%;
-    }
-    .text{
-        padding: 1%;
-    }
+.text-dos{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 1%;
+}
+/* estilos para mobile */
+@media screen and (min-width:200px){
     /* estilos de index */
-    .img-cinco{
-        display: flex;
-    }
-    .car{
-        display: inline-block;
-        text-align: center;
-        padding: 3%;
-    }
-    .car-dos{
-        margin: 5%;
-    }
-    .car-tres{
-        display: flex;
-    }
-    .link-uno{
-        padding: 1%;
-    }
-    .pep{
-        display: inline-block;
-    }
-    .pip{
-        display: inline-block;
-    }
     .pop{
+        display: grid;
         background-color: black;
         color: aliceblue;
-        padding: 3%;
+    }
+/* estilos de ropa masculina */
+    .rip{
+        color: black;
+        display: contents;
+        text-decoration: none;
+    }
+    .bix-one{
+        display: grid;
+        margin: 0% 0% 0% 35%;
+        width: 30%;
+    }
+    .legend{
+        display: inline-block;
+    }
+    /* estilos para  ropa femenina */
+    .bix-one{
+        display: grid;
+        margin: 0% 0% 0% 35%;
+        width: 30%;
+    }
+    /* estilos de lenceria erotica */
+    .bix-one{
+        display: grid;
+        margin: 0% 0% 0% 35%;
+        width: 30%;
+    }
+    /* estilos de contacto */
+    .rosa{
+        display: flex;
+        margin: 2%;
+    }
+    .label{
+        background-color: black;
+        color: aliceblue;
+        padding: 2%;
+        margin: 2%;
     }
 }
